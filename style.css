@@ -1,0 +1,125 @@
+body {
+	background-color:#D8DBE2 ;
+	color: rgba(50, 50, 50, 0.8);
+	font-family: Times, sans-serif;
+	}	
+
+h1,h2{
+		font-family: times;
+		}
+
+	h1{
+		color: #373F51;
+ 		font-family: "Caveat",cursive;
+ 		font-weight: 500;
+ 		letter-spacing: 2px;
+ 		font-size: 40px;	
+  	}
+
+  	h2{
+  		color:#58A4B0;
+  		font-weight: 200;
+  		font-size: 16px;
+
+
+  	}
+
+	a {
+  	text-decoration: none;
+	}
+
+	a:hover {
+		color:rgb(0, 50, 130);
+	}
+
+
+  #profile-pic {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 20px 0;
+	border: 3px solid #fff;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+.card-white h1 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.card-white {
+background: white;
+margin:20px 0;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-horizontal i {
+	font-size: 60px;
+}
+
+@media (max-width: 760px) {
+	.container {
+	width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+	width: 400px;
+	}
+}
+
+
+#card-with-logo {
+	position: relative;
+}
+
+#logo-top-right {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+	width: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
